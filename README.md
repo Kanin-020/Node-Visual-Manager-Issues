@@ -66,6 +66,10 @@ Minor fix auto installation.
 
 Linux Bash Support.
 
+### 1.0.7
+
+Name display corrected.
+
 ---
 
 ## Issues Repository
