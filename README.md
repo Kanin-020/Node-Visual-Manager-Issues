@@ -70,6 +70,10 @@ Linux Bash Support.
 
 Name display corrected.
 
+### 1.1.0
+
+Bug fixes, big stability and performance improvements.
+
 ---
 
 ## Issues Repository
