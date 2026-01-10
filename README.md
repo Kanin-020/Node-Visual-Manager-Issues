@@ -2,7 +2,17 @@
 
 Node Visual Manager is a VSCode extension that shows the NVM functionalities directly in the VSCode editor without having to open a terminal, it is only necessary to choose the version in a simple and ergonomic interface.
 
-Node Visual Manager Extension install automatically all needed tools on your PC.
+Note: The extension does not automatically install NVM; it works as a wrapper around an existing installation.
+
+## Requirements
+
+It is necessary to have version 1.2.2 installed in the case of Windows.
+
+<https://github.com/coreybutler/nvm-windows/releases>
+
+It is necessary to have NVM SH installed in the case of Linux.
+
+<https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating>
 
 ## Features
 
@@ -22,57 +32,23 @@ NVM has the following functionalities.
 
 - ### Disable NVM (Just for Windows)
 
-## Requirements
-
-It is necessary to have version 1.1.11 installed in the case of Windows.
-
-<https://github.com/coreybutler/nvm-windows/releases>
-
-It is necessary to have NVM SH installed in the case of Linux.
-
-<https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating>
-
 ## Known Issues
 
-Working on MacOS version.
+Functionality not verified on macOS.
+
+Simultaneous use of multiple Node versions across different workspaces is not supported.
 
 ## Release Notes
 
-### 1.0.0
+### 1.2.0
 
-Initial release of Node Visual Manager.
+Bug fixes.
 
-### 1.0.1
+Added support for automatic reading of .nvmrc files.
 
-Correction in installing node version message.
+Removed automatic installation of NVM tool versions.
 
-### 1.0.2
-
-Auto installation of NVM for Windows.
-
-### 1.0.3
-
-Auto installation error corrected.
-
-### 1.0.4
-
-Visual correction after install.
-
-### 1.0.5
-
-Minor fix auto installation.
-
-### 1.0.6
-
-Linux Bash Support.
-
-### 1.0.7
-
-Name display corrected.
-
-### 1.1.0
-
-Bug fixes, big stability and performance improvements.
+Updated Linux-specific Node version handling.
 
 ---
 
